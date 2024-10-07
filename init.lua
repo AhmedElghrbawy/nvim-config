@@ -12,6 +12,10 @@ vim.opt.showcmd = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+
+vim.opt.undofile = true
+
+
 -- fixing the yank-past problem of replacing registers 
 -- https://stackoverflow.com/questions/11993851/how-to-delete-not-cut-in-vim
 

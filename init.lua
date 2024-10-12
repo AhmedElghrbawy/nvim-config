@@ -15,6 +15,9 @@ vim.opt.relativenumber = true
 
 vim.opt.undofile = true
 
+-- fix vim colors in tmux https://gist.github.com/andersevenrud/015e61af2fd264371032763d4ed965b6
+vim.o.termguicolors = true
+
 
 -- fixing the yank-past problem of replacing registers 
 -- https://stackoverflow.com/questions/11993851/how-to-delete-not-cut-in-vim
